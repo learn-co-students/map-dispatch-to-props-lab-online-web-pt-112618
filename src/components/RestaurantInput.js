@@ -29,6 +29,7 @@ export class RestaurantInput extends Component {
     console.log(addRestaurant({...this.state}))
     const restaurant = {...this.state}
     this.props.addRestaurant(restaurant)
+    // or this.props.addRestaurant(this.state)
   }
 
   render() {
